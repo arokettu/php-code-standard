@@ -1,0 +1,21 @@
+{
+    "name": "sandfox.dev/code-standard",
+    "description": "A personal code standard for CodeSniffer",
+    "type": "phpcodesniffer-standard",
+    "license": "0BSD",
+    "authors": [{
+        "name": "Anton Smirnov",
+        "homepage": "https://sandfox.me/",
+        "email": "sandfox@sandfox.me",
+        "role": "developer"
+    }],
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+        "dealerdirect/phpcodesniffer-composer-installer": "*",
+        "phpcompatibility/php-compatibility": "*",
+        "slevomat/coding-standard": "*",
+        "squizlabs/php_codesniffer": "*"
+    }
+}
