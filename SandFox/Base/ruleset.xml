@@ -2,6 +2,7 @@
 <!--
     @see https://github.com/squizlabs/PHP_CodeSniffer/wiki/Annotated-Ruleset
 -->
+<!-- For the latest-ish version without temporary compatibility quirks. Currently 7.4 -->
 <ruleset>
     <rule ref="PSR12"/>
     <rule ref="PHPCompatibility"/>

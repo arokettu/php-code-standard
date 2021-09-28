@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!--
+    @see https://github.com/squizlabs/PHP_CodeSniffer/wiki/Annotated-Ruleset
+-->
+<ruleset>
+    <rule ref="SandFox.PHP74">
+        <exclude name="SlevomatCodingStandard.TypeHints.PropertyTypeHint"/>
+    </rule>
+    <config name="testVersion" value="7.3-"/>
+</ruleset>
