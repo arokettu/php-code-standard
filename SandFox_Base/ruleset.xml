@@ -6,6 +6,10 @@
 <ruleset>
     <rule ref="PSR12"/>
     <rule ref="PHPCompatibility"/>
+    <rule ref="Security">
+        <exclude name="PHPCS_SecurityAudit.BadFunctions.CallbackFunctions.WarnCallbackFunctions"/>
+        <exclude name="PHPCS_SecurityAudit.BadFunctions.FilesystemFunctions.WarnFilesystem"/>
+    </rule>
     <rule ref="SlevomatCodingStandard.TypeHints.DeclareStrictTypes">
         <properties>
             <property name="newlinesCountBetweenOpenTagAndDeclare" value="2"/>
