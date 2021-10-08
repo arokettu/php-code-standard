@@ -3,6 +3,6 @@
     @see https://github.com/squizlabs/PHP_CodeSniffer/wiki/Annotated-Ruleset
 -->
 <ruleset>
-    <rule ref="SandFox.Base"/>
-    <config name="testVersion" value="7.4-"/>
+    <rule ref="SandFox_PHP80"/>
+    <config name="testVersion" value="8.1-"/>
 </ruleset>

@@ -32,4 +32,5 @@
     <rule ref="SlevomatCodingStandard.Namespaces.AlphabeticallySortedUses"/>
     <rule ref="SlevomatCodingStandard.PHP.OptimizedFunctionsWithoutUnpacking"/>
     <rule ref="SlevomatCodingStandard.Namespaces.UnusedUses"/>
+    <config name="ParanoiaMode" value="0"/>
 </ruleset>
