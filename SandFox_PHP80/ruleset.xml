@@ -6,6 +6,8 @@
     <rule ref="SandFox_Base">
         <!-- interferes with PHP 8 empty constructors -->
         <exclude name="Squiz.WhiteSpace.ScopeClosingBrace.ContentBefore"/>
+        <!-- interferes with abstract private being allowed in traits -->
+        <exclude name="PHPCompatibility.Classes.ForbiddenAbstractPrivateMethods.Found"/>
     </rule>
     <config name="testVersion" value="8.0-"/>
 </ruleset>
