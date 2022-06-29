@@ -9,5 +9,14 @@
         <!-- interferes with abstract private being allowed in traits -->
         <exclude name="PHPCompatibility.Classes.ForbiddenAbstractPrivateMethods.Found"/>
     </rule>
+    <rule ref="Generic.PHP.ForbiddenFunctions">
+        <properties>
+            <property name="forbiddenFunctions" type="array">
+                <element key="get_class" value="::class"/>
+                <element key="get_called_class" value="static::class"/>
+                <element key="get_parent_class" value="parent::class"/>
+            </property>
+        </properties>
+    </rule>
     <config name="testVersion" value="8.0-"/>
 </ruleset>
