@@ -3,6 +3,9 @@
     @see https://github.com/squizlabs/PHP_CodeSniffer/wiki/Annotated-Ruleset
 -->
 <ruleset>
-    <rule ref="SandFox_PHP80"/>
+    <rule ref="SandFox_PHP80">
+        <!-- Interferes with logic in enums -->
+        <exclude name="PHPCompatibility.Variables.ForbiddenThisUseContexts.OutsideObjectContext"/>
+    </rule>
     <config name="testVersion" value="8.1-"/>
 </ruleset>
