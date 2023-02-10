@@ -2,7 +2,7 @@
     "name": "sandfox.dev/code-standard",
     "description": "A personal code standard for CodeSniffer",
     "type": "phpcodesniffer-standard",
-    "license": "0BSD",
+    "license": "MIT-0",
     "authors": [{
         "name": "Anton Smirnov",
         "homepage": "https://sandfox.me/",
