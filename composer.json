@@ -1,6 +1,7 @@
 {
     "name": "sandfox.dev/code-standard",
     "description": "A personal code standard for CodeSniffer",
+    "keywords": ["dev"],
     "type": "phpcodesniffer-standard",
     "license": "MIT-0",
     "authors": [{
