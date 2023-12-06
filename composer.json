@@ -20,7 +20,7 @@
         "dealerdirect/phpcodesniffer-composer-installer": "*",
         "pheromone/phpcs-security-audit": "*",
         "phpcompatibility/php-compatibility": "*",
-        "phpcsstandards/php_codesniffer": ">= 3.8.0",
-        "slevomat/coding-standard": "*"
+        "slevomat/coding-standard": "*",
+        "squizlabs/php_codesniffer": "*"
     }
 }
