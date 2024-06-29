@@ -3,9 +3,6 @@
     @see https://github.com/squizlabs/PHP_CodeSniffer/wiki/Annotated-Ruleset
 -->
 <ruleset>
-    <rule ref="SandFox_PHP81">
-        <!-- interferes with readonly classes -->
-        <exclude name="PSR1.Files.SideEffects.FoundWithSymbols"/>
-    </rule>
+    <rule ref="SandFox_PHP81"/>
     <config name="testVersion" value="8.2-"/>
 </ruleset>
