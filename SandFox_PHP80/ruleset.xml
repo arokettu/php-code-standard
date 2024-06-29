@@ -3,12 +3,7 @@
     @see https://github.com/squizlabs/PHP_CodeSniffer/wiki/Annotated-Ruleset
 -->
 <ruleset>
-    <rule ref="SandFox_Base">
-        <!-- interferes with PHP 8 empty constructors -->
-        <exclude name="Squiz.WhiteSpace.ScopeClosingBrace.ContentBefore"/>
-        <!-- interferes with abstract private being allowed in traits -->
-        <exclude name="PHPCompatibility.Classes.ForbiddenAbstractPrivateMethods.Found"/>
-    </rule>
+    <rule ref="SandFox_Base"/>
     <rule ref="Generic.PHP.ForbiddenFunctions">
         <properties>
             <property name="forbiddenFunctions" type="array">
