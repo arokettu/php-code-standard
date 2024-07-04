@@ -13,5 +13,12 @@
             </property>
         </properties>
     </rule>
+    <rule ref="SlevomatCodingStandard.TypeHints.UnionTypeHintFormat">
+        <properties>
+            <property name="withSpaces" value="no"/>
+            <property name="shortNullable" value="no"/>
+            <property name="nullPosition" value="last"/>
+        </properties>
+    </rule>
     <config name="testVersion" value="8.0-"/>
 </ruleset>
