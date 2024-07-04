@@ -4,6 +4,7 @@
 -->
 <ruleset>
     <rule ref="SandFox_PHP74">
+        <exclude name="Generic.PHP.ForbiddenFunctions"/>
         <exclude name="SlevomatCodingStandard.TypeHints.PropertyTypeHint"/>
     </rule>
     <config name="testVersion" value="7.3-"/>
