@@ -6,11 +6,7 @@
     <rule ref="SandFox_Base"/>
     <rule ref="Generic.PHP.ForbiddenFunctions">
         <properties>
-            <property name="forbiddenFunctions" type="array">
-                <!-- from base -->
-                <element key="md5" value="hash('md5')"/>
-                <element key="sha1" value="hash('sha1')"/>
-                <!-- since 8.0 -->
+            <property name="forbiddenFunctions" type="array" extend="true">
                 <element key="get_class" value="::class"/>
                 <element key="get_called_class" value="static::class"/>
                 <element key="get_parent_class" value="parent::class"/>
