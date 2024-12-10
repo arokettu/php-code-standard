@@ -37,6 +37,10 @@
     <rule ref="SlevomatCodingStandard.Namespaces.FullyQualifiedGlobalFunctions">
         <properties>
             <property name="includeSpecialFunctions" value="1"/>
+            <property name="include" type="array">
+                <!-- @see https://github.com/slevomat/coding-standard/issues/1697 -->
+                <element key="md5" value="sprintf"/>
+            </property>
         </properties>
     </rule>
     <rule ref="SlevomatCodingStandard.Namespaces.AlphabeticallySortedUses"/>
