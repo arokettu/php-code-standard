@@ -5,7 +5,6 @@
 <!-- For the latest-ish version without temporary compatibility quirks. Currently 7.4 -->
 <ruleset>
     <rule ref="PSR12"/>
-<!-- <rule ref="PHPCompatibility"/>  -->
     <rule ref="Security">
         <exclude name="PHPCS_SecurityAudit.BadFunctions.CallbackFunctions.WarnCallbackFunctions"/>
         <exclude name="PHPCS_SecurityAudit.BadFunctions.FilesystemFunctions.WarnFilesystem"/>
