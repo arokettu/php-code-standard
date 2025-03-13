@@ -14,6 +14,7 @@
             <property name="forbiddenFunctions" type="array">
                 <element key="md5" value="hash('md5')"/>
                 <element key="sha1" value="hash('sha1')"/>
+                <element key="empty"/>
             </property>
         </properties>
     </rule>
