@@ -21,5 +21,5 @@
             <property name="nullPosition" value="last"/>
         </properties>
     </rule>
-    <config name="testVersion" value="8.0-"/>
+    <config name="php_version" value="80000"/>
 </ruleset>

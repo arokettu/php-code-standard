@@ -4,5 +4,5 @@
 -->
 <ruleset>
     <rule ref="SandFox_PHP80"/>
-    <config name="testVersion" value="8.1-"/>
+    <config name="php_version" value="80100"/>
 </ruleset>
