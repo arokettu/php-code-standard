@@ -14,7 +14,6 @@
             <property name="forbiddenFunctions" type="array">
                 <element key="md5" value="hash('md5')"/>
                 <element key="sha1" value="hash('sha1')"/>
-                <element key="empty"/>
             </property>
         </properties>
     </rule>
@@ -44,7 +43,42 @@
         </properties>
     </rule>
     <rule ref="SlevomatCodingStandard.Namespaces.AlphabeticallySortedUses"/>
+    <rule ref="SlevomatCodingStandard.Namespaces.DisallowGroupUse"/>
+    <rule ref="SlevomatCodingStandard.Namespaces.UseDoesNotStartWithBackslash"/>
     <rule ref="SlevomatCodingStandard.PHP.OptimizedFunctionsWithoutUnpacking"/>
+    <rule ref="SlevomatCodingStandard.Classes.RequireAbstractOrFinal"/>
+    <rule ref="SlevomatCodingStandard.PHP.TypeCast"/>
+    <rule ref="SlevomatCodingStandard.Variables.DisallowSuperGlobalVariable"/>
+    <rule ref="SlevomatCodingStandard.Variables.UnusedVariable"/>
+    <rule ref="SlevomatCodingStandard.ControlStructures.DisallowYodaComparison"/>
+    <rule ref="SlevomatCodingStandard.ControlStructures.AssignmentInCondition"/>
+    <rule ref="SlevomatCodingStandard.ControlStructures.DisallowEmpty"/>
+    <rule ref="SlevomatCodingStandard.ControlStructures.NewWithParentheses"/>
+    <rule ref="SlevomatCodingStandard.ControlStructures.RequireMultiLineCondition"/>
+    <rule ref="SlevomatCodingStandard.ControlStructures.RequireNullCoalesceEqualOperator"/>
+    <rule ref="SlevomatCodingStandard.ControlStructures.RequireNullCoalesceOperator"/>
+    <rule ref="SlevomatCodingStandard.Operators.SpreadOperatorSpacing"/>
+    <rule ref="SlevomatCodingStandard.Exceptions.DeadCatch"/>
+    <rule ref="SlevomatCodingStandard.Functions.ArrowFunctionDeclaration">
+        <properties>
+            <property name="allowMultiLine" value="1"/>
+        </properties>
+    </rule>
+    <rule ref="SlevomatCodingStandard.Functions.NamedArgumentSpacing"/>
+    <rule ref="SlevomatCodingStandard.Functions.DisallowEmptyFunction"/>
+    <rule ref="SlevomatCodingStandard.Functions.DisallowTrailingCommaInCall">
+        <properties>
+            <property name="onlySingleLine" value="1"/>
+        </properties>
+    </rule>
+    <rule ref="SlevomatCodingStandard.Functions.RequireTrailingCommaInCall"/>
+    <rule ref="SlevomatCodingStandard.Functions.DisallowTrailingCommaInDeclaration">
+        <properties>
+            <property name="onlySingleLine" value="1"/>
+        </properties>
+    </rule>
+    <rule ref="SlevomatCodingStandard.Functions.RequireTrailingCommaInDeclaration"/>
+    <rule ref="SlevomatCodingStandard.Functions.StaticClosure"/>
     <rule ref="SlevomatCodingStandard.Namespaces.UnusedUses">
         <properties>
             <property name="searchAnnotations" value="true"/>
