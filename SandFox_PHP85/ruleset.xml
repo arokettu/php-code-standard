@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!--
+    @see https://github.com/squizlabs/PHP_CodeSniffer/wiki/Annotated-Ruleset
+-->
+<ruleset>
+    <rule ref="SandFox_PHP84"/>
+    <config name="php_version" value="80500"/>
+</ruleset>
