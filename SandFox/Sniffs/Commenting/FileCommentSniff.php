@@ -1,6 +1,6 @@
 <?php
 
-namespace SandFox_Base\Sniffs\Commenting;
+namespace SandFox\Sniffs\Commenting;
 
 use PHP_CodeSniffer\Standards\PEAR\Sniffs\Commenting\FileCommentSniff as PearFileCommentSniff;
 
