@@ -11,7 +11,7 @@
     </rule>
     <rule ref="Generic.PHP.ForbiddenFunctions">
         <properties>
-            <property name="forbiddenFunctions" type="array">
+            <property name="forbiddenFunctions" type="array" extend="true">
                 <element key="md5" value="hash('md5')"/>
                 <element key="sha1" value="hash('sha1')"/>
             </property>
