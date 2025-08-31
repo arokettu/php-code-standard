@@ -16,6 +16,11 @@
         },
         "sort-packages": true
     },
+    "autoload": {
+        "psr-0": {
+            "SandFox\\": ""
+        }
+    },
     "require": {
         "dealerdirect/phpcodesniffer-composer-installer": "*",
         "pheromone/phpcs-security-audit": "*",

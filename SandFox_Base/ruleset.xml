@@ -85,4 +85,8 @@
         </properties>
     </rule>
     <config name="ParanoiaMode" value="0"/>
+    <rule ref="SandFox_Base.Commenting.FileComment"/>
+    <rule ref="SandFox_Base.Commenting.FileComment.MissingVersion">
+        <severity>0</severity><!-- Message inherited from PEAR, not needed -->
+    </rule>
 </ruleset>
