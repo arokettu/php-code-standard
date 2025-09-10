@@ -3,6 +3,8 @@
     @see https://github.com/squizlabs/PHP_CodeSniffer/wiki/Annotated-Ruleset
 -->
 <ruleset>
-    <rule ref="SandFox_PHP73"/>
+    <rule ref="SandFox_PHP73">
+        <exclude name="SlevomatCodingStandard.Functions.RequireTrailingCommaInCall"/>
+    </rule>
     <config name="php_version" value="70200"/>
 </ruleset>
