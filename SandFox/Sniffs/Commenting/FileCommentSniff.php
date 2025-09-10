@@ -13,7 +13,7 @@ class FileCommentSniff extends PearFileCommentSniff
         ],
         '@license'    => [
             'required'       => true,
-            'allow_multiple' => false,
+            'allow_multiple' => true,
         ],
     ];
 }
