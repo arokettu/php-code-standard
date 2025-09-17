@@ -6,7 +6,7 @@ use PHP_CodeSniffer\Standards\PEAR\Sniffs\Commenting\FileCommentSniff as PearFil
 
 class FileCommentSniff extends PearFileCommentSniff
 {
-    protected $tags = [
+    const EXPECTED_TAGS = [
         '@copyright'  => [
             'required'       => true,
             'allow_multiple' => true,
@@ -16,4 +16,6 @@ class FileCommentSniff extends PearFileCommentSniff
             'allow_multiple' => true,
         ],
     ];
+
+    protected $tags = self::EXPECTED_TAGS;
 }
